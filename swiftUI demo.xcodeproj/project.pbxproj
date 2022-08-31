@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A29167428BD3FA700FF4185 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29167328BD3FA700FF4185 /* DetailView.swift */; };
+		1A29167628BD47C000FF4185 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29167528BD47BF00FF4185 /* WebView.swift */; };
 		1AB9482128B935B2005B97F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9482028B935B2005B97F3 /* AppDelegate.swift */; };
 		1AB9482328B935B2005B97F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9482228B935B2005B97F3 /* SceneDelegate.swift */; };
 		1AB9482628B935B2005B97F3 /* swiftUI_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9482428B935B2005B97F3 /* swiftUI_demo.xcdatamodeld */; };
@@ -14,9 +16,17 @@
 		1AB9482A28B935B6005B97F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB9482928B935B6005B97F3 /* Assets.xcassets */; };
 		1AB9482D28B935B6005B97F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB9482C28B935B6005B97F3 /* Preview Assets.xcassets */; };
 		1AB9483028B935B6005B97F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB9482E28B935B6005B97F3 /* LaunchScreen.storyboard */; };
+		1AB9483B28B94393005B97F3 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AB9483928B94393005B97F3 /* OFL.txt */; };
+		1AB9483C28B94393005B97F3 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AB9483A28B94393005B97F3 /* Pacifico-Regular.ttf */; };
+		1AB9483E28B95426005B97F3 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9483D28B95426005B97F3 /* InfoView.swift */; };
+		1AD6C2ED28BBFEBB00B94B5D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6C2EC28BBFEBB00B94B5D /* NetworkManager.swift */; };
+		1AD6C2EF28BC014000B94B5D /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD6C2EE28BC014000B94B5D /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A29167328BD3FA700FF4185 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1A29167528BD47BF00FF4185 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		1A29167728BD4BF400FF4185 /* swiftUI demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftUI demo.entitlements"; sourceTree = "<group>"; };
 		1AB9481D28B935B2005B97F3 /* swiftUI demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB9482028B935B2005B97F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB9482228B935B2005B97F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,11 @@
 		1AB9482C28B935B6005B97F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AB9482F28B935B6005B97F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB9483128B935B6005B97F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB9483928B94393005B97F3 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		1AB9483A28B94393005B97F3 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		1AB9483D28B95426005B97F3 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		1AD6C2EC28BBFEBB00B94B5D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1AD6C2EE28BC014000B94B5D /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A29167228BD3ADF00FF4185 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AB9482728B935B2005B97F3 /* ContentView.swift */,
+				1A29167328BD3FA700FF4185 /* DetailView.swift */,
+				1A29167528BD47BF00FF4185 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1AB9481428B935B2005B97F3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +83,18 @@
 		1AB9481F28B935B2005B97F3 /* swiftUI demo */ = {
 			isa = PBXGroup;
 			children = (
+				1A29167728BD4BF400FF4185 /* swiftUI demo.entitlements */,
+				1AD6C2EB28BBFEA000B94B5D /* Models */,
+				1AB9483828B94371005B97F3 /* Fonts */,
 				1AB9482028B935B2005B97F3 /* AppDelegate.swift */,
 				1AB9482228B935B2005B97F3 /* SceneDelegate.swift */,
-				1AB9482728B935B2005B97F3 /* ContentView.swift */,
+				1A29167228BD3ADF00FF4185 /* Views */,
 				1AB9482928B935B6005B97F3 /* Assets.xcassets */,
 				1AB9482E28B935B6005B97F3 /* LaunchScreen.storyboard */,
 				1AB9483128B935B6005B97F3 /* Info.plist */,
 				1AB9482428B935B2005B97F3 /* swiftUI_demo.xcdatamodeld */,
 				1AB9482B28B935B6005B97F3 /* Preview Content */,
+				1AB9483D28B95426005B97F3 /* InfoView.swift */,
 			);
 			path = "swiftUI demo";
 			sourceTree = "<group>";
@@ -76,6 +105,24 @@
 				1AB9482C28B935B6005B97F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AB9483828B94371005B97F3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1AB9483928B94393005B97F3 /* OFL.txt */,
+				1AB9483A28B94393005B97F3 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1AD6C2EB28BBFEA000B94B5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6C2EC28BBFEBB00B94B5D /* NetworkManager.swift */,
+				1AD6C2EE28BC014000B94B5D /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +185,9 @@
 			files = (
 				1AB9483028B935B6005B97F3 /* LaunchScreen.storyboard in Resources */,
 				1AB9482D28B935B6005B97F3 /* Preview Assets.xcassets in Resources */,
+				1AB9483B28B94393005B97F3 /* OFL.txt in Resources */,
 				1AB9482A28B935B6005B97F3 /* Assets.xcassets in Resources */,
+				1AB9483C28B94393005B97F3 /* Pacifico-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD6C2ED28BBFEBB00B94B5D /* NetworkManager.swift in Sources */,
+				1A29167428BD3FA700FF4185 /* DetailView.swift in Sources */,
 				1AB9482628B935B2005B97F3 /* swiftUI_demo.xcdatamodeld in Sources */,
 				1AB9482128B935B2005B97F3 /* AppDelegate.swift in Sources */,
 				1AB9482828B935B2005B97F3 /* ContentView.swift in Sources */,
+				1AB9483E28B95426005B97F3 /* InfoView.swift in Sources */,
+				1A29167628BD47C000FF4185 /* WebView.swift in Sources */,
+				1AD6C2EF28BC014000B94B5D /* PostData.swift in Sources */,
 				1AB9482328B935B2005B97F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI demo/swiftUI demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -298,6 +353,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.swiftUI-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI demo/swiftUI demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI demo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -317,6 +374,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gexton.swiftUI-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
